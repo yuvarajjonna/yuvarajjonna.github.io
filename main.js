@@ -150,31 +150,33 @@ var AppComponent = /** @class */ (function () {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppModule", function() { return AppModule; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm5/platform-browser.js");
+/* harmony import */ var _angular_cdk_layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/cdk/layout */ "./node_modules/@angular/cdk/esm5/layout.es5.js");
 /* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
-/* harmony import */ var ngx_select_dropdown__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ngx-select-dropdown */ "./node_modules/ngx-select-dropdown/dist/index.js");
-/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
-/* harmony import */ var _landing_component_landing_component_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./landing-component/landing-component.component */ "./src/app/landing-component/landing-component.component.ts");
-/* harmony import */ var _profile_component_profile_component_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./profile-component/profile-component.component */ "./src/app/profile-component/profile-component.component.ts");
-/* harmony import */ var _article_component_article_component_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./article-component/article-component.component */ "./src/app/article-component/article-component.component.ts");
-/* harmony import */ var _info_component_info_component_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./info-component/info-component.component */ "./src/app/info-component/info-component.component.ts");
-/* harmony import */ var _images_component_images_component_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./images-component/images-component.component */ "./src/app/images-component/images-component.component.ts");
-/* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @angular/platform-browser/animations */ "./node_modules/@angular/platform-browser/fesm5/animations.js");
-/* harmony import */ var _my_nav_my_nav_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./my-nav/my-nav.component */ "./src/app/my-nav/my-nav.component.ts");
-/* harmony import */ var _angular_cdk_layout__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @angular/cdk/layout */ "./node_modules/@angular/cdk/esm5/layout.es5.js");
-/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
-/* harmony import */ var _angular_material_stepper__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @angular/material/stepper */ "./node_modules/@angular/material/esm5/stepper.es5.js");
-/* harmony import */ var _angular_material_tooltip__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! @angular/material/tooltip */ "./node_modules/@angular/material/esm5/tooltip.es5.js");
-/* harmony import */ var _angular_material_select__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! @angular/material/select */ "./node_modules/@angular/material/esm5/select.es5.js");
-/* harmony import */ var _angular_material_menu__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! @angular/material/menu */ "./node_modules/@angular/material/esm5/menu.es5.js");
-/* harmony import */ var _angular_material_grid_list__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! @angular/material/grid-list */ "./node_modules/@angular/material/esm5/grid-list.es5.js");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
-/* harmony import */ var _technical_learning_component_technical_learning_component_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./technical-learning-component/technical-learning-component.component */ "./src/app/technical-learning-component/technical-learning-component.component.ts");
-/* harmony import */ var _top_trending_component_top_trending_component_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./top-trending-component/top-trending-component.component */ "./src/app/top-trending-component/top-trending-component.component.ts");
-/* harmony import */ var _log_in_component_log_in_component_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./log-in-component/log-in-component.component */ "./src/app/log-in-component/log-in-component.component.ts");
-/* harmony import */ var _log_out_component_log_out_component_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./log-out-component/log-out-component.component */ "./src/app/log-out-component/log-out-component.component.ts");
+/* harmony import */ var _angular_flex_layout__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/flex-layout */ "./node_modules/@angular/flex-layout/esm5/flex-layout.es5.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
+/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
+/* harmony import */ var _angular_material_grid_list__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/material/grid-list */ "./node_modules/@angular/material/esm5/grid-list.es5.js");
+/* harmony import */ var _angular_material_menu__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/material/menu */ "./node_modules/@angular/material/esm5/menu.es5.js");
+/* harmony import */ var _angular_material_select__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/material/select */ "./node_modules/@angular/material/esm5/select.es5.js");
+/* harmony import */ var _angular_material_stepper__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/material/stepper */ "./node_modules/@angular/material/esm5/stepper.es5.js");
+/* harmony import */ var _angular_material_tooltip__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/material/tooltip */ "./node_modules/@angular/material/esm5/tooltip.es5.js");
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm5/platform-browser.js");
+/* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @angular/platform-browser/animations */ "./node_modules/@angular/platform-browser/fesm5/animations.js");
+/* harmony import */ var ngx_select_dropdown__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ngx-select-dropdown */ "./node_modules/ngx-select-dropdown/dist/index.js");
+/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+/* harmony import */ var _article_component_article_component_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./article-component/article-component.component */ "./src/app/article-component/article-component.component.ts");
+/* harmony import */ var _images_component_images_component_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./images-component/images-component.component */ "./src/app/images-component/images-component.component.ts");
+/* harmony import */ var _info_component_info_component_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./info-component/info-component.component */ "./src/app/info-component/info-component.component.ts");
+/* harmony import */ var _landing_component_landing_component_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./landing-component/landing-component.component */ "./src/app/landing-component/landing-component.component.ts");
+/* harmony import */ var _log_in_component_log_in_component_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./log-in-component/log-in-component.component */ "./src/app/log-in-component/log-in-component.component.ts");
+/* harmony import */ var _log_out_component_log_out_component_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./log-out-component/log-out-component.component */ "./src/app/log-out-component/log-out-component.component.ts");
+/* harmony import */ var _my_nav_my_nav_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./my-nav/my-nav.component */ "./src/app/my-nav/my-nav.component.ts");
+/* harmony import */ var _profile_component_profile_component_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./profile-component/profile-component.component */ "./src/app/profile-component/profile-component.component.ts");
+/* harmony import */ var _technical_learning_component_technical_learning_component_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./technical-learning-component/technical-learning-component.component */ "./src/app/technical-learning-component/technical-learning-component.component.ts");
+/* harmony import */ var _top_trending_component_top_trending_component_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./top-trending-component/top-trending-component.component */ "./src/app/top-trending-component/top-trending-component.component.ts");
+
 
 
 
@@ -207,40 +209,41 @@ var AppModule = /** @class */ (function () {
     AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_3__["NgModule"])({
             declarations: [
-                _app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"],
-                _landing_component_landing_component_component__WEBPACK_IMPORTED_MODULE_7__["LandingComponentComponent"],
-                _profile_component_profile_component_component__WEBPACK_IMPORTED_MODULE_8__["ProfileComponentComponent"],
-                _article_component_article_component_component__WEBPACK_IMPORTED_MODULE_9__["ArticleComponentComponent"],
-                _info_component_info_component_component__WEBPACK_IMPORTED_MODULE_10__["InfoComponentComponent"],
-                _images_component_images_component_component__WEBPACK_IMPORTED_MODULE_11__["PublishComponentComponent"],
-                _my_nav_my_nav_component__WEBPACK_IMPORTED_MODULE_13__["MyNavComponent"],
-                _technical_learning_component_technical_learning_component_component__WEBPACK_IMPORTED_MODULE_22__["TechnicalLearningComponentComponent"],
-                _top_trending_component_top_trending_component_component__WEBPACK_IMPORTED_MODULE_23__["TopTrendingComponentComponent"],
-                _log_in_component_log_in_component_component__WEBPACK_IMPORTED_MODULE_24__["LogInComponentComponent"],
-                _log_out_component_log_out_component_component__WEBPACK_IMPORTED_MODULE_25__["LogOutComponentComponent"]
+                _app_component__WEBPACK_IMPORTED_MODULE_16__["AppComponent"],
+                _landing_component_landing_component_component__WEBPACK_IMPORTED_MODULE_20__["LandingComponentComponent"],
+                _profile_component_profile_component_component__WEBPACK_IMPORTED_MODULE_24__["ProfileComponentComponent"],
+                _article_component_article_component_component__WEBPACK_IMPORTED_MODULE_17__["ArticleComponentComponent"],
+                _info_component_info_component_component__WEBPACK_IMPORTED_MODULE_19__["InfoComponentComponent"],
+                _images_component_images_component_component__WEBPACK_IMPORTED_MODULE_18__["PublishComponentComponent"],
+                _my_nav_my_nav_component__WEBPACK_IMPORTED_MODULE_23__["MyNavComponent"],
+                _technical_learning_component_technical_learning_component_component__WEBPACK_IMPORTED_MODULE_25__["TechnicalLearningComponentComponent"],
+                _top_trending_component_top_trending_component_component__WEBPACK_IMPORTED_MODULE_26__["TopTrendingComponentComponent"],
+                _log_in_component_log_in_component_component__WEBPACK_IMPORTED_MODULE_21__["LogInComponentComponent"],
+                _log_out_component_log_out_component_component__WEBPACK_IMPORTED_MODULE_22__["LogOutComponentComponent"]
             ],
             imports: [
-                _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
+                _angular_platform_browser__WEBPACK_IMPORTED_MODULE_12__["BrowserModule"],
                 _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClientModule"],
-                ngx_select_dropdown__WEBPACK_IMPORTED_MODULE_5__["SelectDropDownModule"],
-                _app_routing_module__WEBPACK_IMPORTED_MODULE_4__["AppRoutingModule"],
-                _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_12__["BrowserAnimationsModule"],
-                _angular_cdk_layout__WEBPACK_IMPORTED_MODULE_14__["LayoutModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_15__["MatToolbarModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_15__["MatButtonModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_15__["MatSidenavModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_15__["MatIconModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_15__["MatListModule"],
-                _angular_material_tooltip__WEBPACK_IMPORTED_MODULE_17__["MatTooltipModule"],
-                _angular_material_select__WEBPACK_IMPORTED_MODULE_18__["MatSelectModule"],
-                _angular_material_menu__WEBPACK_IMPORTED_MODULE_19__["MatMenuModule"],
-                _angular_material_grid_list__WEBPACK_IMPORTED_MODULE_20__["MatGridListModule"],
-                _angular_forms__WEBPACK_IMPORTED_MODULE_21__["FormsModule"],
-                _angular_material_stepper__WEBPACK_IMPORTED_MODULE_16__["MatStepperModule"],
-                _angular_forms__WEBPACK_IMPORTED_MODULE_21__["ReactiveFormsModule"]
+                ngx_select_dropdown__WEBPACK_IMPORTED_MODULE_14__["SelectDropDownModule"],
+                _app_routing_module__WEBPACK_IMPORTED_MODULE_15__["AppRoutingModule"],
+                _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_13__["BrowserAnimationsModule"],
+                _angular_cdk_layout__WEBPACK_IMPORTED_MODULE_1__["LayoutModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatToolbarModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatButtonModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatSidenavModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatIconModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatListModule"],
+                _angular_material_tooltip__WEBPACK_IMPORTED_MODULE_11__["MatTooltipModule"],
+                _angular_material_select__WEBPACK_IMPORTED_MODULE_9__["MatSelectModule"],
+                _angular_material_menu__WEBPACK_IMPORTED_MODULE_8__["MatMenuModule"],
+                _angular_material_grid_list__WEBPACK_IMPORTED_MODULE_7__["MatGridListModule"],
+                _angular_forms__WEBPACK_IMPORTED_MODULE_5__["FormsModule"],
+                _angular_material_stepper__WEBPACK_IMPORTED_MODULE_10__["MatStepperModule"],
+                _angular_forms__WEBPACK_IMPORTED_MODULE_5__["ReactiveFormsModule"],
+                _angular_flex_layout__WEBPACK_IMPORTED_MODULE_4__["FlexLayoutModule"]
             ],
             providers: [],
-            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"]]
+            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_16__["AppComponent"]]
         })
     ], AppModule);
     return AppModule;
@@ -257,7 +260,7 @@ var AppModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "  <h1>\r\n    Published Articles!\r\n  </h1>\r\n<ol>\r\n  <li *ngFor=\"let list of this.listData; let idx = index\" class=\"list\">\r\n    <button\r\n      type=\"button\"\r\n      aria-label=\"Toggle sidenav\"\r\n      mat-icon-button \r\n      style=\"float: right;\"\r\n      (click)=\"delete(idx)\">\r\n        <mat-icon aria-label=\"Side nav toggle icon\">delete</mat-icon>\r\n    </button>\r\n    <p style=\"font-weight: lighter;\">Published by <b style=\"font-weight: 550;\">{{list.name ? list.name : 'unknown user'}}</b></p>\r\n    <p *ngIf='!list.imageData'><i>{{list.desc}}</i></p>\r\n    <img *ngIf=\"list.imageData\" [src]=\"list.imageData.src\" style=\"height:100px;width:100px\" />\r\n  </li>\r\n</ol>\r\n<h2 style=\"font-weight: lighter;text-align: center;\" *ngIf='this.listData.length === 0'>\r\n  No published articles yet!\r\n</h2>"
+module.exports = "  <h1 style=\"text-align: center;\">\r\n    Published Articles!\r\n  </h1>\r\n<ol>\r\n  <li *ngFor=\"let list of this.listData; let idx = index\" class=\"list\">\r\n    <button\r\n      type=\"button\"\r\n      aria-label=\"Toggle sidenav\"\r\n      mat-icon-button\r\n      style=\"float: right;\"\r\n      (click)=\"delete(idx)\">\r\n        <mat-icon aria-label=\"Side nav toggle icon\">delete</mat-icon>\r\n    </button>\r\n    <p style=\"font-weight: lighter;\">Published by <b style=\"font-weight: 550;\">{{list.name ? list.name : 'unknown user'}}</b></p>\r\n    <p *ngIf='!list.imageData'><i>{{list.desc}}</i></p>\r\n    <img *ngIf=\"list.imageData\" [src]=\"list.imageData.src\" style=\"height:250px;width:250px\" />\r\n  </li>\r\n</ol>\r\n<h2 style=\"font-weight: lighter;text-align: center;\" *ngIf='this.listData.length === 0'>\r\n  No published articles yet!\r\n</h2>\r\n"
 
 /***/ }),
 
@@ -268,7 +271,7 @@ module.exports = "  <h1>\r\n    Published Articles!\r\n  </h1>\r\n<ol>\r\n  <li 
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "ol {\n  margin: 1em;\n  padding: 0.1em 0 0.8em 0em;\n  list-style-type: none; }\n\n.list {\n  padding: 0.1em 0 0.8em 1em; }\n\nli:nth-child(odd) {\n  background-color: #e3f3d4; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXJ0aWNsZS1jb21wb25lbnQvQzpcXFImRFxcVGVjaENyZXotVUkvc3JjXFxhcHBcXGFydGljbGUtY29tcG9uZW50XFxhcnRpY2xlLWNvbXBvbmVudC5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLFlBQVc7RUFDWCwyQkFBMEI7RUFDOUIsc0JBQXFCLEVBQ3BCOztBQUNEO0VBQ0ksMkJBQTBCLEVBQzdCOztBQUNEO0VBRUksMEJBQXlCLEVBQzVCIiwiZmlsZSI6InNyYy9hcHAvYXJ0aWNsZS1jb21wb25lbnQvYXJ0aWNsZS1jb21wb25lbnQuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJvbCB7XHJcbiAgICBtYXJnaW46IDFlbTtcclxuICAgIHBhZGRpbmc6IDAuMWVtIDAgMC44ZW0gMGVtO1xyXG5saXN0LXN0eWxlLXR5cGU6IG5vbmU7XHJcbn1cclxuLmxpc3Qge1xyXG4gICAgcGFkZGluZzogMC4xZW0gMCAwLjhlbSAxZW07XHJcbn1cclxubGk6bnRoLWNoaWxkKG9kZClcclxueyBcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICNlM2YzZDQ7IFxyXG59Il19 */"
+module.exports = "ol {\n  margin: 1em;\n  padding: 0.1em 0 0.8em 0em;\n  list-style-type: none; }\n\n.list {\n  padding: 0.1em 0 0.8em 1em; }\n\nli:nth-child(odd) {\n  background-color: #e3f3d4; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXJ0aWNsZS1jb21wb25lbnQvQzpcXFImRFxcVGVjaENyZXotVUkvc3JjXFxhcHBcXGFydGljbGUtY29tcG9uZW50XFxhcnRpY2xlLWNvbXBvbmVudC5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLFlBQVc7RUFDWCwyQkFBMEI7RUFDMUIsc0JBQXFCLEVBQ3hCOztBQUNEO0VBQ0ksMkJBQTBCLEVBQzdCOztBQUNEO0VBRUksMEJBQXlCLEVBQzVCIiwiZmlsZSI6InNyYy9hcHAvYXJ0aWNsZS1jb21wb25lbnQvYXJ0aWNsZS1jb21wb25lbnQuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJvbCB7XHJcbiAgICBtYXJnaW46IDFlbTtcclxuICAgIHBhZGRpbmc6IDAuMWVtIDAgMC44ZW0gMGVtO1xyXG4gICAgbGlzdC1zdHlsZS10eXBlOiBub25lO1xyXG59XHJcbi5saXN0IHtcclxuICAgIHBhZGRpbmc6IDAuMWVtIDAgMC44ZW0gMWVtO1xyXG59XHJcbmxpOm50aC1jaGlsZChvZGQpXHJcbntcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICNlM2YzZDQ7XHJcbn1cclxuIl19 */"
 
 /***/ }),
 
@@ -343,7 +346,7 @@ module.exports = [{"title":"Javascript Tutorial For Beginners 1 # JavaScript Int
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<h1>\r\n  publish-component works!\r\n</h1>\r\n<h4>What do you want to publish(Image/Story):</h4>\r\n<div class=\"radio\">  \r\n  <input type=\"radio\" name=\"gender\" value=\"Male\" (click)=\"setradio('image')\" ngModel> Image  \r\n  <input type=\"radio\" name=\"gender\" value=\"Female\" (click)=\"setradio('story')\" ngModel> Story\r\n</div>  \r\n\r\n<div *ngIf=\"isSelected('image')\" >  \r\n<input style=\"margin: 30px 30px 10px 30px;\" [(ngModel)]=\"image.name\" placeholder=\"name\"/><br>\r\n<input style=\"margin: 30px 30px 10px 30px;\" #imageInput type=\"file\" accept=\"image/*\" (change)=\"processFile(imageInput)\"><br>\r\n<button style=\"margin: 30px 30px 10px 30px;\" (click)=\"publishImage()\">publish</button>\r\n</div>\r\n\r\n<div *ngIf=\"isSelected('story')\">\r\n  <input style=\"margin: 30px 30px 10px 30px;\" [(ngModel)]=\"data.name\" placeholder=\"name\"/><br>\r\n  <textarea [(ngModel)]=\"data.desc\" placeholder=\"description\"></textarea><br>\r\n  <button (click)=\"addContact(data.name,data.desc)\">publish</button>\r\n</div>"
+module.exports = "<h1 style=\"text-align: center;\">\r\n  publish-component works!\r\n</h1>\r\n<div class=\"container\">\r\n  <h4>What do you want to publish(Image/Story):</h4>\r\n  <div class=\"radio\">\r\n    <input type=\"radio\" name=\"gender\" value=\"Male\" (click)=\"setradio('image')\" ngModel> Image\r\n    <input type=\"radio\" name=\"gender\" value=\"Female\" (click)=\"setradio('story')\" ngModel> Story\r\n  </div>\r\n\r\n  <div *ngIf=\"isSelected('image')\" >\r\n    <input style=\"margin: 30px 30px 10px 10px;\" [(ngModel)]=\"image.name\" placeholder=\"name\"/><br>\r\n    <input style=\"margin: 20px 10px 10px 10px;\" #imageInput type=\"file\" accept=\"image/*\" (change)=\"processFile(imageInput)\"><br>\r\n    <button style=\"margin: 20px 30px 10px 10px;\" (click)=\"publishImage()\">publish</button>\r\n  </div>\r\n\r\n  <div *ngIf=\"isSelected('story')\">\r\n    <input style=\"margin: 30px 30px 10px 10px;\" [(ngModel)]=\"data.name\" placeholder=\"name\"/><br>\r\n    <textarea [(ngModel)]=\"data.desc\" placeholder=\"description\"></textarea><br>\r\n    <button style=\"margin: 10px 30px 10px 10px;\" class=\"btn btn-primary\" (click)=\"addContact(data.name,data.desc)\">publish</button>\r\n  </div>\r\n</div>\r\n"
 
 /***/ }),
 
@@ -354,7 +357,7 @@ module.exports = "<h1>\r\n  publish-component works!\r\n</h1>\r\n<h4>What do you
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "textarea {\n  margin: 0px 30px 30px 30px;\n  min-width: 95%;\n  min-height: 50vh; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaW1hZ2VzLWNvbXBvbmVudC9DOlxcUiZEXFxUZWNoQ3Jlei1VSS9zcmNcXGFwcFxcaW1hZ2VzLWNvbXBvbmVudFxcaW1hZ2VzLWNvbXBvbmVudC5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLDJCQUEwQjtFQUMxQixlQUFjO0VBQ2QsaUJBQWdCLEVBQ25CIiwiZmlsZSI6InNyYy9hcHAvaW1hZ2VzLWNvbXBvbmVudC9pbWFnZXMtY29tcG9uZW50LmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsidGV4dGFyZWEge1xyXG4gICAgbWFyZ2luOiAwcHggMzBweCAzMHB4IDMwcHg7XHJcbiAgICBtaW4td2lkdGg6IDk1JTtcclxuICAgIG1pbi1oZWlnaHQ6IDUwdmg7XHJcbn1cclxuIl19 */"
+module.exports = "textarea {\n  margin: 3px 30px 10px 9px;\n  min-width: 85vw;\n  min-height: 45vh; }\n\n.container {\n  padding: 0 10px; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaW1hZ2VzLWNvbXBvbmVudC9DOlxcUiZEXFxUZWNoQ3Jlei1VSS9zcmNcXGFwcFxcaW1hZ2VzLWNvbXBvbmVudFxcaW1hZ2VzLWNvbXBvbmVudC5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLDBCQUF5QjtFQUN6QixnQkFBZTtFQUNmLGlCQUFnQixFQUNuQjs7QUFFRDtFQUNJLGdCQUFlLEVBQ2xCIiwiZmlsZSI6InNyYy9hcHAvaW1hZ2VzLWNvbXBvbmVudC9pbWFnZXMtY29tcG9uZW50LmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsidGV4dGFyZWEge1xyXG4gICAgbWFyZ2luOiAzcHggMzBweCAxMHB4IDlweDtcclxuICAgIG1pbi13aWR0aDogODV2dztcclxuICAgIG1pbi1oZWlnaHQ6IDQ1dmg7XHJcbn1cclxuXHJcbi5jb250YWluZXIge1xyXG4gICAgcGFkZGluZzogMCAxMHB4O1xyXG59XHJcbiJdfQ== */"
 
 /***/ }),
 
@@ -469,7 +472,7 @@ module.exports = "<button\r\n    type=\"button\"\r\n    aria-label=\"Toggle side
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "#example2 {\n  margin-top: 40px;\n  border: 1px solid;\n  padding: 10px;\n  box-shadow: 5px 10px #888888;\n  margin: 0px 15px 30px 15px;\n  width: 350px;\n  float: left; }\n\ntextarea {\n  margin: 0px 30px 30px 30px;\n  min-width: 95%;\n  min-height: 30%; }\n\n.saveButton, .editButton {\n  float: right;\n  margin: 20px 20px 20px 5px; }\n\n.cancelButton {\n  float: right;\n  margin: 20px 0px; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaW5mby1jb21wb25lbnQvQzpcXFImRFxcVGVjaENyZXotVUkvc3JjXFxhcHBcXGluZm8tY29tcG9uZW50XFxpbmZvLWNvbXBvbmVudC5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLGlCQUFnQjtFQUNoQixrQkFBaUI7RUFDakIsY0FBYTtFQUNiLDZCQUE0QjtFQUM1QiwyQkFBMEI7RUFDMUIsYUFBWTtFQUNaLFlBQVcsRUFDZDs7QUFFRDtFQUNJLDJCQUEwQjtFQUMxQixlQUFjO0VBQ2QsZ0JBQWUsRUFDbEI7O0FBRUQ7RUFDSSxhQUFZO0VBQ1osMkJBQTBCLEVBQzdCOztBQUVEO0VBQ0ksYUFBWTtFQUNaLGlCQUFnQixFQUNuQiIsImZpbGUiOiJzcmMvYXBwL2luZm8tY29tcG9uZW50L2luZm8tY29tcG9uZW50LmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiI2V4YW1wbGUyIHtcclxuICAgIG1hcmdpbi10b3A6IDQwcHg7XHJcbiAgICBib3JkZXI6IDFweCBzb2xpZDtcclxuICAgIHBhZGRpbmc6IDEwcHg7XHJcbiAgICBib3gtc2hhZG93OiA1cHggMTBweCAjODg4ODg4O1xyXG4gICAgbWFyZ2luOiAwcHggMTVweCAzMHB4IDE1cHg7XHJcbiAgICB3aWR0aDogMzUwcHg7XHJcbiAgICBmbG9hdDogbGVmdDtcclxufVxyXG5cclxudGV4dGFyZWEge1xyXG4gICAgbWFyZ2luOiAwcHggMzBweCAzMHB4IDMwcHg7XHJcbiAgICBtaW4td2lkdGg6IDk1JTtcclxuICAgIG1pbi1oZWlnaHQ6IDMwJTtcclxufVxyXG5cclxuLnNhdmVCdXR0b24sIC5lZGl0QnV0dG9uIHtcclxuICAgIGZsb2F0OiByaWdodDtcclxuICAgIG1hcmdpbjogMjBweCAyMHB4IDIwcHggNXB4O1xyXG59XHJcblxyXG4uY2FuY2VsQnV0dG9uIHtcclxuICAgIGZsb2F0OiByaWdodDtcclxuICAgIG1hcmdpbjogMjBweCAwcHg7XHJcbn0iXX0= */"
+module.exports = "#example2 {\n  margin-top: 40px;\n  border: 1px solid;\n  padding: 10px;\n  box-shadow: 5px 10px #888888;\n  margin: 0px 15px 30px 15px;\n  width: 310px;\n  float: left; }\n\n@media (max-width: 550px) {\n  #example2 {\n    width: 85vw; } }\n\ntextarea {\n  margin: 0px 30px 30px 30px;\n  min-width: 95%;\n  min-height: 30%; }\n\n.saveButton, .editButton {\n  float: right;\n  margin: 20px 20px 20px 5px; }\n\n.cancelButton {\n  float: right;\n  margin: 20px 0px; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaW5mby1jb21wb25lbnQvQzpcXFImRFxcVGVjaENyZXotVUkvc3JjXFxhcHBcXGluZm8tY29tcG9uZW50XFxpbmZvLWNvbXBvbmVudC5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLGlCQUFnQjtFQUNoQixrQkFBaUI7RUFDakIsY0FBYTtFQUNiLDZCQUE0QjtFQUM1QiwyQkFBMEI7RUFDMUIsYUFBWTtFQUNaLFlBQVcsRUFDZDs7QUFDRDtFQUNJO0lBQ0ksWUFBVyxFQUNkLEVBQUE7O0FBR0w7RUFDSSwyQkFBMEI7RUFDMUIsZUFBYztFQUNkLGdCQUFlLEVBQ2xCOztBQUVEO0VBQ0ksYUFBWTtFQUNaLDJCQUEwQixFQUM3Qjs7QUFFRDtFQUNJLGFBQVk7RUFDWixpQkFBZ0IsRUFDbkIiLCJmaWxlIjoic3JjL2FwcC9pbmZvLWNvbXBvbmVudC9pbmZvLWNvbXBvbmVudC5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIiNleGFtcGxlMiB7XHJcbiAgICBtYXJnaW4tdG9wOiA0MHB4O1xyXG4gICAgYm9yZGVyOiAxcHggc29saWQ7XHJcbiAgICBwYWRkaW5nOiAxMHB4O1xyXG4gICAgYm94LXNoYWRvdzogNXB4IDEwcHggIzg4ODg4ODtcclxuICAgIG1hcmdpbjogMHB4IDE1cHggMzBweCAxNXB4O1xyXG4gICAgd2lkdGg6IDMxMHB4O1xyXG4gICAgZmxvYXQ6IGxlZnQ7XHJcbn1cclxuQG1lZGlhKG1heC13aWR0aDogNTUwcHgpIHtcclxuICAgICNleGFtcGxlMiB7XHJcbiAgICAgICAgd2lkdGg6IDg1dnc7XHJcbiAgICB9XHJcbn1cclxuXHJcbnRleHRhcmVhIHtcclxuICAgIG1hcmdpbjogMHB4IDMwcHggMzBweCAzMHB4O1xyXG4gICAgbWluLXdpZHRoOiA5NSU7XHJcbiAgICBtaW4taGVpZ2h0OiAzMCU7XHJcbn1cclxuXHJcbi5zYXZlQnV0dG9uLCAuZWRpdEJ1dHRvbiB7XHJcbiAgICBmbG9hdDogcmlnaHQ7XHJcbiAgICBtYXJnaW46IDIwcHggMjBweCAyMHB4IDVweDtcclxufVxyXG5cclxuLmNhbmNlbEJ1dHRvbiB7XHJcbiAgICBmbG9hdDogcmlnaHQ7XHJcbiAgICBtYXJnaW46IDIwcHggMHB4O1xyXG59XHJcbiJdfQ== */"
 
 /***/ }),
 
@@ -551,7 +554,7 @@ var InfoComponentComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<mat-grid-list cols=\"3\" rowHeight=\"2:1\">\r\n    <mat-grid-tile\r\n        routerLink=\"/portfolio\"\r\n        style=\"background-color: powderblue;\"\r\n        class=\"cursorPointer\"\r\n        >\r\n        <span matTooltip=\"portfolio\" matTooltipPosition=\"below\">portfolio</span>\r\n    </mat-grid-tile>\r\n    <mat-grid-tile\r\n        routerLink=\"/Publish\"\r\n        style=\"background-color: NavajoWhite;\"\r\n        class=\"cursorPointer\"\r\n        >\r\n        <span matTooltip=\"Publish your stories\" matTooltipPosition=\"below\">Publish your stories</span>\r\n    </mat-grid-tile>\r\n    <mat-grid-tile\r\n        routerLink=\"/notes\"\r\n        style=\"background-color: Gainsboro;\"\r\n        class=\"cursorPointer\"\r\n        >\r\n        <span matTooltip=\"notes\" matTooltipPosition=\"below\">notes</span>\r\n    </mat-grid-tile>\r\n    <mat-grid-tile\r\n        routerLink=\"/technicalLearning\"\r\n        style=\"background-color: Lavender;\"\r\n        class=\"cursorPointer\"\r\n        >\r\n        <span matTooltip=\"Technical Learning Space\" matTooltipPosition=\"below\">Technical Learning Space</span>\r\n    </mat-grid-tile>\r\n    <mat-grid-tile\r\n        routerLink=\"/trending\"\r\n        style=\"background-color: LightSteelBlue ;\"\r\n        class=\"cursorPointer\"\r\n        >\r\n        <span matTooltip=\"Top Trending\" matTooltipPosition=\"below\">Top Trending</span>\r\n    </mat-grid-tile>\r\n    <mat-grid-tile\r\n        routerLink=\"/articles\"\r\n        style=\"background-color: DarkSalmon;\"\r\n        class=\"cursorPointer\"\r\n        >\r\n        <span matTooltip=\"View articles\" matTooltipPosition=\"below\">View articles</span>\r\n    </mat-grid-tile>\r\n</mat-grid-list>"
+module.exports = "<mat-grid-list #grid rowHeight=\"2:1\">\r\n    <mat-grid-tile\r\n        routerLink=\"/portfolio\"\r\n        style=\"background-color: powderblue;\"\r\n        class=\"cursorPointer\"\r\n        >\r\n        <span matTooltip=\"portfolio\" matTooltipPosition=\"below\">portfolio</span>\r\n    </mat-grid-tile>\r\n    <mat-grid-tile\r\n        routerLink=\"/Publish\"\r\n        style=\"background-color: NavajoWhite;\"\r\n        class=\"cursorPointer\"\r\n        >\r\n        <span matTooltip=\"Publish your stories\" matTooltipPosition=\"below\">Publish your stories</span>\r\n    </mat-grid-tile>\r\n    <mat-grid-tile\r\n        routerLink=\"/notes\"\r\n        style=\"background-color: Gainsboro;\"\r\n        class=\"cursorPointer\"\r\n        >\r\n        <span matTooltip=\"notes\" matTooltipPosition=\"below\">notes</span>\r\n    </mat-grid-tile>\r\n    <mat-grid-tile\r\n        routerLink=\"/technicalLearning\"\r\n        style=\"background-color: Lavender;\"\r\n        class=\"cursorPointer\"\r\n        >\r\n        <span matTooltip=\"Technical Learning Space\" matTooltipPosition=\"below\">Technical Learning Space</span>\r\n    </mat-grid-tile>\r\n    <mat-grid-tile\r\n        routerLink=\"/trending\"\r\n        style=\"background-color: LightSteelBlue ;\"\r\n        class=\"cursorPointer\"\r\n        >\r\n        <span matTooltip=\"Top Trending\" matTooltipPosition=\"below\">Top Trending</span>\r\n    </mat-grid-tile>\r\n    <mat-grid-tile\r\n        routerLink=\"/articles\"\r\n        style=\"background-color: DarkSalmon;\"\r\n        class=\"cursorPointer\"\r\n        >\r\n        <span matTooltip=\"View articles\" matTooltipPosition=\"below\">View articles</span>\r\n    </mat-grid-tile>\r\n</mat-grid-list>\r\n"
 
 /***/ }),
 
@@ -578,20 +581,40 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LandingComponentComponent", function() { return LandingComponentComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_flex_layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/flex-layout */ "./node_modules/@angular/flex-layout/esm5/flex-layout.es5.js");
+/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
+
+
 
 
 var LandingComponentComponent = /** @class */ (function () {
-    function LandingComponentComponent() {
+    function LandingComponentComponent(observableMedia) {
+        this.observableMedia = observableMedia;
+        this.gridByBreakpoint = {
+            xl: 3,
+            lg: 3,
+            md: 3,
+            sm: 2,
+            xs: 1
+        };
     }
-    LandingComponentComponent.prototype.ngOnInit = function () {
+    LandingComponentComponent.prototype.ngAfterContentInit = function () {
+        var _this = this;
+        this.observableMedia.asObservable().subscribe(function (change) {
+            _this.grid.cols = _this.gridByBreakpoint[change.mqAlias];
+        });
     };
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"])('grid'),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatGridList"])
+    ], LandingComponentComponent.prototype, "grid", void 0);
     LandingComponentComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
             selector: 'app-landing-component',
             template: __webpack_require__(/*! ./landing-component.component.html */ "./src/app/landing-component/landing-component.component.html"),
             styles: [__webpack_require__(/*! ./landing-component.component.scss */ "./src/app/landing-component/landing-component.component.scss")]
         }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_angular_flex_layout__WEBPACK_IMPORTED_MODULE_2__["ObservableMedia"]])
     ], LandingComponentComponent);
     return LandingComponentComponent;
 }());
@@ -910,7 +933,7 @@ var TechnicalLearningComponentComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<h1>\r\n  Select the region to see the trending videos.  \r\n</h1>\r\n<ngx-select-dropdown \r\n  [config]=\"config\" \r\n  [options]=\"this.regionData\" \r\n  (change)=\"getData($event)\" \r\n  [(ngModel)]=\"dataModel\" \r\n  [multiple]=\"false\" >\r\n</ngx-select-dropdown>\r\n\r\n<ol *ngIf=\"this.trendingVideos.items\">\r\n  <h2>Top trending videos in {{this.selectedRegion.regionName}}</h2>\r\n  <li *ngFor=\"let list of this.trendingVideos.items; let idx = index\" class=\"list\">\r\n    <iframe width=\"560\" height=\"315\" [src]=\"list.id\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\r\n  </li>\r\n</ol>\r\n"
+module.exports = "<h1 style=\"text-align: center;\">\r\n  Select the region to see the trending videos.\r\n</h1>\r\n<ngx-select-dropdown\r\n  [config]=\"config\"\r\n  [options]=\"this.regionData\"\r\n  (change)=\"getData($event)\"\r\n  [(ngModel)]=\"dataModel\"\r\n  [multiple]=\"false\" >\r\n</ngx-select-dropdown>\r\n\r\n<ol *ngIf=\"this.trendingVideos.items\">\r\n  <h2>Top trending videos in {{this.selectedRegion.regionName}}</h2>\r\n  <li *ngFor=\"let list of this.trendingVideos.items; let idx = index\" class=\"list\">\r\n    <iframe width=\"560\" height=\"315\" [src]=\"list.id\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\r\n  </li>\r\n</ol>\r\n"
 
 /***/ }),
 
